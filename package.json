@@ -1,0 +1,24 @@
+{
+  "name": "globomantics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-datasource-rest": "^0.9.4",
+    "apollo-server": "^2.18.1",
+    "lodash": "^4.17.20",
+    "nodemon": "^2.0.4"
+  },
+  "nodemonConfig": {
+    "env": {
+      "APOLLO_KEY": "service:Globomantics:GX1DL1Gvvwq2S85_mh_JpA",
+      "APOLLO_GRAPH_VARIANT": "current"
+    }
+  }
+}
